@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+/*#preloader{
+    background: #000 url("..\\img\\Walk.gif") no-repeat center center;
+    background-size: 15%; 
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}*/
+
+
+.main{
+   
+    /* border: 3px solid red; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray; 
+}
+
+.continer{
+
+    /* border: 5px solid black; */
+    /* margin: 0px; */
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: rgb(53, 52, 52);
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+
+form{
+    /* border: 5px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.text_box{
+    position: relative;
+    width: 90%;
+    margin: 20px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+}
+
+.sub_btn{
+    position: relative;
+    top: 1.35rem;
+    left: -80px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(141, 140, 140);
+    border: 0;
+    margin-left: 5px;
+}
+
+.mic{
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+div .content{
+    color: aliceblue;
+    position: absolute;
+    /* border: 2px solid red; */
+    background-color: #000;
+    top: 0;
+    width: 90%;
+    height: 65vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 0 0px 30px 30px;
+}
+
+
+
+.user{
+    display: flex;
+    justify-content: end;
+    /* padding: 10px; */
+    margin-right: 10px;
+    /* visibility: hidden; */
+
+}
+
+.genai{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    width: auto;
+    max-width: 50%;
+    /* margin-left: 10px; */
+    /* visibility: hidden; */
+}
+
+.speak-btn{
+    border-radius: 10px;
+}
+.speak-css{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20PX;
+}
+
+
+
+.speak-css:hover{
+    cursor: pointer;
+}
+
+.genai h3{
+    /* margin-left: 0px; */
+    padding: 20px;
+    width: auto;
+    max-width: 50%;
+    min-width: 0;
+    border-radius: 50px 50px 50px 0px;
+
+}
+
+.user h3{
+    padding: 20px;
+    width: auto;
+    max-width: 50%;
+    min-width: 0;
+    border-radius: 50px 50px 0px 50px;
+
+}
+
+
+
+h3{
+    background-color: grey;
+    
+}
+
+.text{
+    width: 100%;
+}
+.mic-input{
+    width: 2%;
+    margin-left: 20px;
+}
+
+.sub_btn:hover{
+   cursor: pointer;
+}
